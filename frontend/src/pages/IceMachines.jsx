@@ -4,27 +4,27 @@ const iceMachines = [
   {
     id: "cube-ice-machine",
     name: "Cube Ice Machine",
-    image: "/cube ice machine3.avif"
+    image: "/images/cube ice machine3.avif"
   },
   {
     id: "tube-ice-machine",
     name: "Tube Ice Machine",
-    image: "/tube ice machine 4.avif"
+    image: "/images/tube ice machine 4.avif"
   },
   {
     id: "flake-ice-machine",
     name: "Flake Ice Machine",
-    image: "/flake ice machine 4.webp"
+    image: "/images/flake ice machine 4.webp"
   },
   {
     id: "direct-cool-block-ice-machine",
     name: "Direct Cool Block Ice Machine",
-    image: "/direct cool block ice machine5.png"
+    image: "/images/direct cool block ice machine5.png"
   },
   {
     id: "cold-room",
     name: "Cold Room",
-    image: "/cold room.jpeg"
+    image: "/images/cold room.jpeg"
   }
 ];
 

@@ -4,7 +4,7 @@ import { useParams, Link } from "react-router-dom";
 const waterMachinesData = {
   "ro-plants": {
     name: "RO Plants",
-    image: "/ro plants image1.jpeg",
+    image: "/images/ro plants image1.jpeg",
     price: "Rs 250,000/= upwards",
     description:
       "Industrial RO plant designed for high-capacity water purification. Delivers consistently pure water for factories, bottling plants, hotels, and large institutions. Features multi-stage filtration, durable components, and efficient operation for continuous use.",

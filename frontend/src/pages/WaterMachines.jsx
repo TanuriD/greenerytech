@@ -4,7 +4,7 @@ const waterMachines = [
   {
     id: "ro-plants",
     name: "RO Plants",
-    image: "/ro plants image1.jpeg",
+    image: "/images/ro plants image1.jpeg",
   },
 ];
 

@@ -10,12 +10,12 @@ export default function Home() {
 
       <div className="categories">
         <Link to="/ice-machines" className="category-card">
-          <img src="/ice machine.jpeg" alt="Ice Machines & Cold Rooms" />
+          <img src="/images/ice machine.jpeg" alt="Ice Machines & Cold Rooms" />
           <h3>Ice Machines & Cold Rooms</h3>
         </Link>
 
         <Link to="/water-machines" className="category-card">
-          <img src="/ro equipments.jpeg" alt="Industrial RO Machines" />
+          <img src="/images/ro equipments.jpeg" alt="Industrial RO Machines" />
           <h3>Industrial RO Machines</h3>
         </Link>
       </div>

@@ -4,8 +4,8 @@ import { useParams, Link } from "react-router-dom";
 const iceMachinesData = {
   "cube-ice-machine": {
     name: "Cube Ice Machine",
-    image: "/cube ice machine3.avif",
-    iceImage: "/cube ice image.jpeg",
+    image: "/images/cube ice machine3.avif",
+    iceImage: "/images/cube ice image.jpeg",
     price: "Rs.190,000/= upwards",
     description: "High-performance cube ice machine perfect for commercial and residential use. Produces clear, hard ice cubes that last longer. Features automatic cleaning cycle, energy-efficient operation, and compact design. Ideal for restaurants, bars, hotels, and homes.",
     descriptionSinhala: "වාණිජ හා නේවාසික භාවිතය සඳහා සම්පූර්ණ කියුබ් අයිස් යන්ත්‍රයකි. දිගුකාලීනව පවතින පැහැදිලි, දැඩි අයිස් කැට නිපදවයි. ස්වයංක්‍රීය පිරිසිදු කිරීමේ චක්‍රය, බලශක්ති කාර්යක්ෂම ක්‍රියාකාරකම් සහ කොම්පැක්ට් නිර්මාණය ඇතුළත් වේ. අවන්හල්, බාර්, හෝටල් සහ නිවාස සඳහා සුදුසුය.",
@@ -13,8 +13,8 @@ const iceMachinesData = {
   },
   "tube-ice-machine": {
     name: "Tube Ice Machine",
-    image: "/tube ice machine 4.avif",
-    iceImage: "/tube ice image.avif",
+    image: "/images/tube ice machine 4.avif",
+    iceImage: "/images/tube ice image.avif",
     price: "Rs.5,300,000/= upwards",
     description: "Efficient tube ice machine designed for high-volume ice production. Produces cylindrical ice tubes that are perfect for beverages. Features stainless steel construction, easy maintenance, and reliable performance. Great for cafes, restaurants, and commercial establishments.",
     descriptionSinhala: "ඉහළ පරිමාණ අයිස් නිෂ්පාදනය සඳහා නිර්මාණය කරන ලද කාර්යක්ෂම නල අයිස් යන්ත්‍රයකි. පාන සඳහා සම්පූර්ණ සිලින්ඩරාකාර අයිස් නල නිපදවයි. වානේ ඉදිකිරීම්, පහසු නඩත්තුව සහ විශ්වාසදායක කාර්ය සාධනය ඇතුළත් වේ. කැෆේ, අවන්හල් සහ වාණිජ ආයතන සඳහා විශිෂ්ටයි.",
@@ -22,8 +22,8 @@ const iceMachinesData = {
   },
   "flake-ice-machine": {
     name: "Flake Ice Machine",
-    image: "/flake ice machine 4.webp",
-    iceImage: "/flake ice image.jpeg",
+    image: "/images/flake ice machine 4.webp",
+    iceImage: "/images/flake ice image.jpeg",
     price: "Rs.1,560,000/= upwards",
     description: "Professional flake ice machine ideal for food display and preservation. Produces soft, moldable ice flakes that are perfect for seafood displays, salad bars, and medical applications. Features rapid ice production, hygienic design, and energy-saving technology.",
     descriptionSinhala: "ආහාර ප්‍රදර්ශනය සහ සංරක්ෂණය සඳහා සුදුසු වෘත්තීය පොට්ටල් අයිස් යන්ත්‍රයකි. මාළු ප්‍රදර්ශන, සලාද බාර් සහ වෛද්‍ය යෙදුම් සඳහා සම්පූර්ණ මෘදු, හැඩගැස්විය හැකි අයිස් පොට්ටල් නිපදවයි. වේගවත් අයිස් නිෂ්පාදනය, සනීපාරක්ෂක නිර්මාණය සහ බලශක්ති ඉතිරිකිරීමේ තාක්ෂණය ඇතුළත් වේ.",
@@ -31,8 +31,8 @@ const iceMachinesData = {
   },
   "direct-cool-block-ice-machine": {
     name: "Direct Cool Block Ice Machine",
-    image: "/direct cool block ice machine5.png",
-    iceImage: "/direct cool block ice.jpeg",
+    image: "/images/direct cool block ice machine5.png",
+    iceImage: "/images/direct cool block ice.jpeg",
     price: "Rs.5,300,000/= upwards",
     description: "Heavy-duty direct cool block ice machine for large-scale ice production. Produces large block ice perfect for fishing, food processing, and industrial applications. Features robust construction, high capacity, and reliable direct cooling system. Built to last in demanding environments.",
     descriptionSinhala: "විශාල පරිමාණ අයිස් නිෂ්පාදනය සඳහා බර-කාර්ය ඍජු සිසිලන බ්ලොක් අයිස් යන්ත්‍රයකි. මාළු අල්ලා ගැනීම, ආහාර සැකසීම සහ කාර්මික යෙදුම් සඳහා සම්පූර්ණ විශාල බ්ලොක් අයිස් නිපදවයි. ශක්තිමත් ඉදිකිරීම්, ඉහළ ධාරිතාව සහ විශ්වාසදායක ඍජු සිසිලන පද්ධතිය ඇතුළත් වේ. දැඩි පරිසරවල දිගුකාලීනව පවතින ලෙස නිර්මාණය කර ඇත.",
@@ -40,7 +40,7 @@ const iceMachinesData = {
   },
   "cold-room": {
     name: "Cold Room",
-    image: "/cold room.jpeg",
+    image: "/images/cold room.jpeg",
     iceImage: null,
     price: "Rs 1,000,000/= upwards",
     description:
