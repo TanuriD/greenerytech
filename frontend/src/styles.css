@@ -14,8 +14,19 @@ body {
 
 #root {
   min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 250px;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 main,
@@ -36,55 +47,72 @@ img {
 /* ===== Navbar ===== */
 .navbar {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 2rem;
+  flex-direction: column;
+  width: 250px;
+  min-width: 250px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
   background: rgba(15, 23, 42, 0.96);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(56, 189, 248, 0.35);
-  position: sticky;
-  top: 0;
+  border-right: 1px solid rgba(56, 189, 248, 0.35);
+  padding: 2rem 1.5rem;
   z-index: 20;
+  overflow-y: auto;
 }
 
 .navbar h2 {
-  margin: 0;
+  margin: 0 0 2rem;
   font-size: 1.3rem;
   letter-spacing: 0.04em;
   color: #e0f2fe;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.5), 0 0 20px rgba(56, 189, 248, 0.3), 0 0 30px rgba(56, 189, 248, 0.2);
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  gap: 1.25rem;
+  flex-direction: column;
+  gap: 0.75rem;
   margin: 0;
   padding: 0;
 }
 
+.navbar li {
+  width: 100%;
+}
+
 .navbar a {
+  display: block;
   font-size: 0.95rem;
   color: #cbd5f5;
-  padding-bottom: 0.15rem;
-  border-bottom: 2px solid transparent;
-  transition: color 0.2s ease, border-color 0.2s ease;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 0.5rem;
+  background: rgba(15, 23, 42, 0.5);
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  text-align: center;
 }
 
 .navbar a:hover {
   color: #f9fafb;
   border-color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
 }
 
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.75rem;
+    width: 200px;
+    min-width: 200px;
+    padding: 1.5rem 1rem;
   }
 
-  .navbar ul {
-    flex-wrap: wrap;
-    row-gap: 0.5rem;
+  .main-content {
+    margin-left: 200px;
   }
 }
 
@@ -126,7 +154,7 @@ img {
 }
 
 .category-card img {
-  height: 300px;
+  height: 250px;
   width: 100%;
   object-fit: contain;
   background: radial-gradient(circle at top, #0b1120, #020617);
@@ -423,5 +451,3 @@ footer {
   text-align: center;
   font-size: 0.85rem;
 }
-
-

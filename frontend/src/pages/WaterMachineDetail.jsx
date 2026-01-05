@@ -23,9 +23,9 @@ export default function WaterMachineDetail() {
     return (
       <div className="page-section">
         <h1>Machine Not Found</h1>
-        <p>The Industrial RO machine you're looking for doesn't exist.</p>
+        <p>The RO plant you're looking for doesn't exist.</p>
         <Link to="/water-machines" className="back-link">
-          ← Back to Industrial RO Machines
+          ← Back to RO plants, Accessories & Spare parts
         </Link>
       </div>
     );
@@ -34,7 +34,7 @@ export default function WaterMachineDetail() {
   return (
     <div className="machine-detail">
       <Link to="/water-machines" className="back-link">
-        ← Back to Industrial RO Machines
+        ← Back to RO plants, Accessories & Spare parts
       </Link>
       
       <div className="machine-detail-content">

@@ -11,7 +11,7 @@ const waterMachines = [
 export default function WaterMachines() {
   return (
     <div className="product-page">
-      <h1>Industrial RO Machines</h1>
+      <h1>RO plants, Accessories & Spare parts</h1>
       <p className="page-intro">
         Explore our range of industrial RO plants for high-capacity water
         purification.

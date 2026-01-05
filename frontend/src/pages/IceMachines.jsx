@@ -2,16 +2,6 @@ import { Link } from "react-router-dom";
 
 const iceMachines = [
   {
-    id: "cube-ice-machine",
-    name: "Cube Ice Machine",
-    image: "/images/cube ice machine3.avif"
-  },
-  {
-    id: "tube-ice-machine",
-    name: "Tube Ice Machine",
-    image: "/images/tube ice machine 4.avif"
-  },
-  {
     id: "flake-ice-machine",
     name: "Flake Ice Machine",
     image: "/images/flake ice machine 4.webp"
@@ -20,6 +10,16 @@ const iceMachines = [
     id: "direct-cool-block-ice-machine",
     name: "Direct Cool Block Ice Machine",
     image: "/images/direct cool block ice machine5.png"
+  },
+  {
+    id: "cube-ice-machine",
+    name: "Cube Ice Machine",
+    image: "/images/cube ice machine3.avif"
+  },
+  {
+    id: "tube-ice-machine",
+    name: "Tube Ice Machine",
+    image: "/images/tube ice machine 4.avif"
   },
   {
     id: "cold-room",

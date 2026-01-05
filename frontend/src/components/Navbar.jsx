@@ -7,7 +7,7 @@ export default function Navbar() {
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/ice-machines">Ice Machines & Cold Rooms</Link></li>
-        <li><Link to="/water-machines">Industrial RO Machines</Link></li>
+        <li><Link to="/water-machines">RO plants, Accessories & Spare parts</Link></li>
         <li><Link to="/services">Services</Link></li>
         <li><Link to="/about">About Us</Link></li>
         <li><Link to="/contact">Contact Us</Link></li>
