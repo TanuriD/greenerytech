@@ -13,22 +13,18 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <BrowserRouter>
-      <div className="app-container">
-        <Navbar />
-        <div className="main-content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/water-machines" element={<WaterMachines />} />
-            <Route path="/water-machines/:machineId" element={<WaterMachineDetail />} />
-            <Route path="/ice-machines" element={<IceMachines />} />
-            <Route path="/ice-machines/:machineId" element={<IceMachineDetail />} />
-          </Routes>
-          <Footer />
-        </div>
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/water-machines" element={<WaterMachines />} />
+        <Route path="/water-machines/:machineId" element={<WaterMachineDetail />} />
+        <Route path="/ice-machines" element={<IceMachines />} />
+        <Route path="/ice-machines/:machineId" element={<IceMachineDetail />} />
+      </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
